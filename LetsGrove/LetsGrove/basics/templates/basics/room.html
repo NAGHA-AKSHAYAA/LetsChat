@@ -1,0 +1,41 @@
+{% extends "basics/main.html" %}
+{% load static %}
+{% block content %}
+<main id="room-wrapper">
+<section id="video-wrapper">
+    <section id="room-name-wrapper">
+        <p>Room Name: <span id="room-name"></span></p>
+    </section>
+    <section id="video-streams">
+    </section>
+    <section id="controls-wrapper">
+        <div class="icon-wrapper">
+            <img class="control-icon" id="mic-btn" src=" {% static "images/microphone.svg" %} ">
+            <img class="control-icon" id="camera-btn" src=" {% static "images/video.svg" %} ">
+            <img class="control-icon" id="leave-btn" src=" {% static "images/leave.svg" %} ">
+            <img class="control-icon" id='chat-btn' src= "{% static "images/ai-chat-icon.png" %}">
+        </div>
+    </section>
+</section>
+<section id="chat-wrapper">
+  <div class="chat-container">
+    <ul id = 'chat-box'>
+      <li>hello,are we meeting today?</li>
+    </ul>
+  </div>
+  <div class="send-message-container">
+    <div id="transcription-container">
+        <div id="transcription-text-wrapper">
+            <textarea id="transcription-text" placeholder="Transcription will appear here" readonly></textarea>
+            <div id="displayText"></div>
+            <img class="control-icon" id="record-btn" src=" {% static "images/speak.png" %} ">
+            <img class="control-icon" id='send-btn' src= "{% static "images/send.png" %}">
+        </div>
+    </div>
+  </div> <!-- end chat-message -->
+</section>
+</main>
+<script type="text/javascript" src=" {% static "assets/AgoraRTC_N-4.20.2.js" %} "></script>
+<script type="text/javascript" src=" {% static "js/stream.js" %} "></script>
+{% endblock content %}
+
