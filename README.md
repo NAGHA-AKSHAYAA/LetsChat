@@ -14,7 +14,7 @@ LetsChat is a video chat application that allows users to join video calls with 
 
 To run the application locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/Vaibhav-Thalanki/ChatWave-Video-App.git`
+1. Clone the repository: `git clone https://github.com/NAGHA-AKSHAYAA/LetsChat.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Set up environment variables:
    - Create a `.env` file in the root of the project.
