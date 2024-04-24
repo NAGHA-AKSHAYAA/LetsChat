@@ -1,6 +1,6 @@
-# ChatWave Video Chat
+# LetsChat
 
-ChatWave is a video chat application that allows users to join video calls with up to 10 people. It features personalized rooms where users can share a code to invite others to join. Additionally, each participant has a personal voice assistant in their video chat, powered by Llama LLM.
+LetsChat is a video chat application that allows users to join video calls with up to 10 people. It features personalized rooms where users can share a code to invite others to join. Additionally, each participant has a personal voice assistant in their video chat, powered by Llama LLM.
 
 ## Project Information
 
